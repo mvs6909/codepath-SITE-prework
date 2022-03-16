@@ -62,12 +62,19 @@ User wins after completing all 8 passes (This GIF shows only the last pass)
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 
 [https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript](https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript)
+
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+
 [https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet](https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet)
+
 [How to Show Images on Click using HTML ? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-show-images-on-click-using-html/)
+
 [https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71](https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71)
+
 https://micku7zu.github.io/vanilla-tilt.js/
+
 https://www.w3schools.com/css/css_dropdowns.asp
+
 
 **2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)**
 Before developing this application, I had no experience in HTML and CSS. The main challenge that I faced was to create the User Interface the way I wanted it to look. I found it difficult to use which properties in CSS to get my button in the right shape or get the timer in the center of the screen. The two following challenges I faced in the positioning of the object would be:-
@@ -98,7 +105,7 @@ How are games like Minecraft are created?
 How to create 3d websites like apple.com and robinhood.com? They use animations that seem very different compared to regular websites like amazon.com 
 
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
+**4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)** 
 
 Due to time constraints, I was not able to craete a perfect web application. If I had a few more hours I would:-
 1. Use diffenent instrument sounds for different butttons since they showcase an image of an instrument.
