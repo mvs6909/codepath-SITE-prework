@@ -68,7 +68,7 @@ User wins after completing all 8 passes (This GIF shows only the last pass)
 https://micku7zu.github.io/vanilla-tilt.js/
 https://www.w3schools.com/css/css_dropdowns.asp
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
+**2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)**
 Before developing this application, I had no experience in HTML and CSS. The main challenge that I faced was to create the User Interface the way I wanted it to look. I found it difficult to use which properties in CSS to get my button in the right shape or get the timer in the center of the screen. The two following challenges I faced in the positioning of the object would be:-
 
 I had implemented the difficulty mode feature in which users can choose how many tiles to play with. In the design, I wanted 4 blocks of easy mode in one line and subsequent blocks from the medium and hard mode in the next line. I tried using display: block, inline, and many other properties but nothing worked out as there was a lot of space causing 6 blocks in one line and 2 blocks in the next line. To solve this, I added a <p>——…</p> (line 75 in index.html)with font color black so I can cover my extra space and get the required design
@@ -85,12 +85,31 @@ The logic of timer. I have a startTimer() and stopTimer(). Earlier, I was callin
 I felt the need to understand CSS better to create a better User interface.
 
 
+**3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)**
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+The Pre-work work project was an amazing start to my web development journey using HTML CSS and JavaScript. I have learned a lot while implementing the optional features of the internship. Up next, I want to learn advanced web development, and here are the questions that came across my mind:-
+
+How to use CSS to develop real-world websites? In this project, the Ui is a bit unprofessional. I want to understand how advanced CSS is used to upgrade my game’s User interface?
+I want to learn how the frontend is integrated with the backend. In this project, we don’t use any data storage features. Like, to make a website like Amazon, we need to extract data from our database and display it. I am not sure how to integrate data with the front end 
+How are HTML CSS and JavaScript integrated? I have never completed a project with the use of 3 different languages so I want to know how does it work.
+How website take advantage of HTML tags for search engine optimization on Google?
+How are games like Minecraft are created? 
+How to create 3d websites like apple.com and robinhood.com? They use animations that seem very different compared to regular websites like amazon.com 
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+Due to time constraints, I was not able to craete a perfect web application. If I had a few more hours I would:-
+1. Use diffenent instrument sounds for different butttons since they showcase an image of an instrument.
+2. Add a Progress bar instead of a timer to make the UI like a real game
+3. Chnaged the Game Lost and game win alert to a Confetti celebration or different animations 
+4. Use a different background since black looks basic
+5. Learn how to use CSS for button alignment instead of adding empty <p>
+6. Added a scoring algorithm which gives the user a score based on the time the take to guess.
+7. Added an animated background
+8. Refactored my code in CSS. Currently I am not reusing code efficiently. For example, there is a visible class in CSS for all buttons instead of a common class. I tried to implement it but the debugging was not successful
+9. Would test the applications with more complexity.
+10. Improved the User interface to a game.
 
 
 
