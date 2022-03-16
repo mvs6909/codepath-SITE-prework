@@ -35,7 +35,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] User can change the difficulty with the providid 3 difficulty modes
-- [X] Integrated tilt.js library to improve the UI and make the buuttons animated
+- [X] Integrated tilt.js library to improve the UI and give the buttons some interactive animations
+- [X] Added a glowing effect to buttons
 
 ## Video Walkthrough (GIF)
 
