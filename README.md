@@ -27,14 +27,14 @@ The following **optional** features are implemented:
 * [X] More than 4 functional game buttons
 * [X] Playback speeds up on each turn
 * [X] Computer picks a different pattern each time the game is played
-* [ ] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [X] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [ ] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [X] User can change the difficulty with the providid 3 difficulty modes
 
 ## Video Walkthrough (GIF)
 
