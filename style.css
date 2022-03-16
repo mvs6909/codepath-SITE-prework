@@ -111,58 +111,146 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: Copperplate, Times New Roman;
+  font-family: Copperplate, Times New Roman, sans-serif;
   background-color: black;
   color: white;
 }
-h1 {
+h1{
   font-family: Times new roman, sans-serif;
-  color: yellow;
+  color: white;
+}
+h2 {
+  font-family: Times new roman, sans-serif;
+  color: white;  
 }
 button{
  padding: 10px;
  border-radius: 45px;
 }
 
+img{
+  width: 100%;
+  height: 100%;
+}
+#image{
+  display: none;
+}
+
 #gameButtonArea > button {
   width:200px;
   height:200px;
   margin:2px;
+  text-align:center;
 }
 
 .hidden{
-  display: none
+  display: none;
+}
+#timer{
+  font-size: 40px;
+  text-align:center;
+  visibility:hidden;
 }
 
-#button1 {
-    background: lightgreen;
+#timer.visible{
+  visibility: visible;
 }
+#strikes > button {
+    background: black;
+  width: 30px;
+  height:30px;
+    background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/heart.png?v=1647392902755");
+  background-size:cover;  
+}
+#button1 {
+   background: #a7c6da;
+    }
 #button1:active,#button1.lit{
-  background: green
+    background: #a7c6da;
+  box-shadow: 0 0 10px #a7c6da, 0 0 40px #a7c6da, 0 0 80px #a7c6da;
+  
+    background-image: url(https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/saxophone.png?v=1647314379987);
+  background-size:cover;
+  
 }
 #button2 {
-    background: deepskyblue;
+    background: #EEFCCE;
 }
 #button2:active,#button2.lit{
-  background: blue
+  background: #EEFCCE;
+  box-shadow: 0 0 10px #EEFCCE, 0 0 40px #EEFCCE, 0 0 80px #EEFCCE;
+  background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/musical-instrument.png?v=1647313955961");
+  background-size:cover;
 }
 #button3 {
-    background: lightyellow;
+    background: #FF4740;
 }
 #button3:active,#button3.lit{
-  background: gold
+  background: #FF4740;
+  box-shadow: 0 0 10px #FF4740, 0 0 40px #FF4740, 0 0 80px #FF4740;
+    background-image: url(https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/clarinet.png?v=1647314403994);
+  background-size:cover;
 }
 #button4 {
-    background: salmon;
+    background: #F1DB4B;
 }
 #button4:active,#button4.lit{
-  background: red
+  background: #F1DB4B;
+  box-shadow: 0 0 10px #F1DB4B, 0 0 40px #F1DB4B, 0 0 80px #F1DB4B;
+    background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/musician.png?v=1647314412338");
+  background-size:cover;
 }
-#button5 {
-    background: lavender;
+#button5{
+    background: #EDFF71;
+    visibility: hidden;
+}
+#button5.visible{
+  visibility: visible;
 }
 #button5:active,#button5.lit{
-  background: darkmagenta
+  background: #EDFF71;
+  box-shadow: 0 0 10px #EDFF71, 0 0 40px #EDFF71, 0 0 80px #EDFF71;
+    background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/instrument.png?v=1647314717098");
+  background-size:cover;
+}
+#button6 {
+    background: #FAA300;
+  visibility: hidden;
+}
+#button6.visible{
+  visibility: visible;
+}
+#button6:active,#button6.lit{
+  background: #FAA300;
+  box-shadow: 0 0 10px #FAA300, 0 0 40px #FAA300, 0 0 80px #FAA300;
+    background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/grand-piano.png?v=1647314396315");
+  background-size:cover;
+}
+#button7 {
+    background: #52FFEE;
+  visibility: hidden;
+}
+#button7.visible{
+  visibility: visible;
+}
+#button7:active,#button7.lit{
+  background: #52FFEE;
+  box-shadow: 0 0 10px #52FFEE, 0 0 40px #52FFEE, 0 0 80px #52FFEE;
+    background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/guitar.png?v=1647312859297");
+  background-size:cover;
+}
+#button8 {
+    background: #DEC0F1;
+  visibility: hidden;
+}
+#button8:active,#button8.lit{
+  background: #DEC0F1;
+  box-shadow: 0 0 10px #DEC0F1, 0 0 40px #DEC0F1, 0 0 80px #DEC0F1;
+    background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/instrument%20(1).png?v=1647314710545");
+  background-size:cover;
+}
+#button8.visible{
+  visibility: visible;
 }
 
 /* Page structure */
@@ -181,7 +269,7 @@ button{
 
 /* Very light scaling for our illustration */
 .title {
-  color: #2800FF;
+  color: white;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -189,7 +277,9 @@ button{
   line-height: 105%;
   margin: 0;
 }
-
+.progressBar{
+  text-align: center;
+}
 /* Very light scaling for our illustration */
 .illustration {
   max-width: 100%;
@@ -200,6 +290,10 @@ button{
 /* Instructions */
 .instructions {
   margin: 1rem auto 0;
+}
+.heart{
+  width:10;
+  height: 10;
 }
 
 /* Button - Add it from the README instructions */
@@ -216,9 +310,6 @@ input {
 }
 
 /* Subheading */
-h2 {
-  color: #2800FF;
-}
 
 /* Interactive image */
 .illustration:active {
@@ -232,3 +323,48 @@ h2 {
 .dipped {
   transform: translateY(5px);
 }
+
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  float: right;
+  right: 40px;
+  
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
