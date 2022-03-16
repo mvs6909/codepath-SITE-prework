@@ -39,10 +39,14 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-<img src='https://media.giphy.com/media/jinPLeqAGq93aOdDqE/giphy.gif' width='' alt='Video Walkthrough' />
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+User can choose the difficulty level in which easy, medium, and hard has 4,6,8 tiles respectively. It also shows the tilt effect used on tiles.
+<img src='https://media.giphy.com/media/jinPLeqAGq93aOdDqE/giphy.gif' width='' />
+User loses hearts after incorrect guess and eventually loses
+<img src='https://media.giphy.com/media/iCwSaBOv2Vs9MauC7S/giphy.gif' width='' />
+User loses due to time running out
+<img src='https://media.giphy.com/media/W2r0eF1XaH5re21WSD/giphy.gif' width='' />
+User wins after completing all 8 passes (This GIF shows only the last pass)
+<img src='https://media.giphy.com/media/HGyFTxVqmxXvQcNM6A/giphy.gif' width='' />
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
