@@ -59,10 +59,32 @@ User wins after completing all 8 passes (This GIF shows only the last pass)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+[https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript](https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript)
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+[https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet](https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet)
+[How to Show Images on Click using HTML ? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-show-images-on-click-using-html/)
+[https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71](https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71)
+https://micku7zu.github.io/vanilla-tilt.js/
+https://www.w3schools.com/css/css_dropdowns.asp
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+Before developing this application, I had no experience in HTML and CSS. The main challenge that I faced was to create the User Interface the way I wanted it to look. I found it difficult to use which properties in CSS to get my button in the right shape or get the timer in the center of the screen. The two following challenges I faced in the positioning of the object would be:-
+
+        I had implemented the difficulty mode feature in which users can choose how many tiles to play with. In the design, I wanted 4 blocks of easy mode in one line and subsequent blocks from the medium and hard mode in the next line. I tried using display: block, inline, and many other properties but nothing worked out as there was a lot of space causing 6 blocks in one line and 2 blocks in the next line. To solve this, I added a <p>——…</p> (line 75 in index.html)with font color black so I can cover my extra space and get the required design
+
+    I had difficulty in creating the perfect size for the hearts(mistakes ) in one single line. To solve this I created 3 buttons in the same line, set the color to black, and used the background-image property to get the perfect alignment
+
+I agree I have not used the desired properties to get the perfect alignments, but my lack of experience in CSS made me use alternate methods to get desired results
+
+    Apart from the designing part, one of the challenges I faced was during implementing the difficulty mode feature and timer feature.
+    I learned how to make a dropdown menu from w3schools.com. The main issue was the implementation of the feature and how to change the number of blocks. For that, I made 8 buttons and used the visibility attribute. I created a custom class visible which changes the visibility mode. So when I click on ‘medium’, button5 and button6 change their attribute to visibility: visible;
+
+    The logic of timer. I have a startTimer() and stopTimer(). Earlier, I was calling the startTime() at the end of playClueSequence() since we need the timer running after the last sequence of progress played. The issue was the timer was starting early for 4 onwards passes. I overcame the issue by using setTimeout with time = delay -1000 to appropriately start the timer.
+
+I felt the need to understand CSS better to create a better User interface.
+
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
