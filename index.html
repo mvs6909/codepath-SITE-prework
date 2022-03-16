@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--
-      This is the page head - it contains info the browser uses to display the page
-      You won't see what's in the head in the page
-      Scroll down to the body element for the page content
-    -->
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
@@ -16,50 +10,106 @@
       You can write text in a comment and the content won't be visible in the page
     -->
 
-
     <!-- Import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
 
     <!-- Import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
-  <body id = "body">
-    <h1>Light and Sound Memory Game</h1>
-    <p>Welcome to the Game! Repeat back the pattern by pressing the buttons!</p>
-    <button id="startBtn" onclick="startGame()">Start</button>
-    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
-
+  <body id="body" >
+      <h1>Light and Sound Memory Game</h1>
+      <p>Welcome to the Game! Repeat back the pattern by pressing the buttons!</p>
+      <button id="startBtn" onclick="startGame()">Start</button>  
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+      <audio src="https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/letsGo?v=1647395611106" id="letsGo"></audio>
+      <div class="dropdown" style="display:inline">
+        <button class="dropbtn">Difficulty</button>
+        <div class="dropdown-content">
+          <a href="#" onclick="easyMode()">Easy</a>
+          <a href="#" onclick="mediumMode()">Medium</a>
+          <a href="#" onclick="hardMode()">Hard</a>
+        </div>
+      </div>
+    <p style="display:block"></p>
+    <div id="strikes">
+    <button id="heart3" ></button>
+    <button id="heart2" ></button>
+    <button id="heart1" ></button>
+    <h2 id = "timer"></h2>
+    <div>
+      
+    <p style="display:block"></p>
     <div id="gameButtonArea">
       <button
         id="button1"
         onclick="guess(1)"
         onmousedown="startTone(1)"
         onmouseup="stopTone()"
+        data-tilt
+        style="display:inline"
       ></button>
       <button
         id="button2"
         onclick="guess(2)"
         onmousedown="startTone(2)"
         onmouseup="stopTone()"
+        data-tilt
+        style="display:inline"
       ></button>
       <button
         id="button3"
         onclick="guess(3)"
         onmousedown="startTone(3)"
         onmouseup="stopTone()"
+        data-tilt
+        style="display:inline"      
       ></button>
       <button
         id="button4"
         onclick="guess(4)"
         onmousedown="startTone(4)"
         onmouseup="stopTone()"
+        data-tilt
+        style="display:inline"
       ></button>
+      <p style="color:black;">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
       <button
         id="button5"
         onclick="guess(5)"
         onmousedown="startTone(5)"
         onmouseup="stopTone()"
+        
+        data-tilt
+      ></button>
+      <button
+        id="button6"
+        onclick="guess(6)"
+        onmousedown="startTone(6)"
+        onmouseup="stopTone()"
+        data-tilt
+        style="display:inline"
+      ></button>
+      <button
+        id="button7"
+        onclick="guess(7)"
+        onmousedown="startTone(7)"
+        onmouseup="stopTone()"
+        data-tilt
+        style="display:inline"
+      ></button>
+      <button
+        id="button8"
+        onclick="guess(8)"
+        onmousedown="startTone(8)"
+        onmouseup="stopTone()"
+        data-tilt
+        style="display:inline"
       ></button>
     </div>
+    <p style="display:block"> </p>
+    <p style="display:block"> </p>
+    <p style="display:block"> </p>
+    <p style="display:block"> </p>
+    <script type="text/javascript" src="tilt.js"></script>
   </body>
 </html>
