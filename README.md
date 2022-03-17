@@ -77,18 +77,19 @@ https://www.w3schools.com/css/css_dropdowns.asp
 
 
 **2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)**
-Before developing this application, I had no experience in HTML and CSS. The main challenge that I faced was to create the User Interface the way I wanted it to look. I found it difficult to use which properties in CSS to get my button in the right shape or get the timer in the center of the screen. The two following challenges I faced in the positioning of the object would be:-
 
-I had implemented the difficulty mode feature in which users can choose how many tiles to play with. In the design, I wanted 4 blocks of easy mode in one line and subsequent blocks from the medium and hard mode in the next line. I tried using display: block, inline, and many other properties but nothing worked out as there was a lot of space causing 6 blocks in one line and 2 blocks in the next line. To solve this, I added a <p>——…</p> (line 75 in index.html)with font color black so I can cover my extra space and get the required design
+Before developing this application, I had absolutely no experience in HTML and CSS. The main challenge that I faced was in creating the User Interface the way I wanted it to look. I also found it difficult to figure out which CSS properties I had to use to get my button in the right shape or to get the timer aligned to the center of the screen. The following are two challenges I faced in the positioning of different objects in my project:
 
-I had difficulty in creating the perfect size for the hearts(mistakes ) in one single line. To solve this I created 3 buttons in the same line, set the color to black, and used the background-image property to get the perfect alignment
+1. I implemented the difficulty mode feature in which users can choose how many tiles to play with. In this design, I wanted 4 blocks in one line for easy mode and subsequent blocks from the medium and hard mode in the next line. I tried using display: block, inline, and multiple other properties but nothing worked since there was a lot of space resulting in 6 blocks in one line and 2 blocks in the next. To solve this, I added a line (——…) (line 75 in index.html) with the font color as black to cover the extra space for the required design.
 
-I agree I have not used the desired properties to get the perfect alignments, but my lack of experience in CSS made me use alternate methods to get desired results
+2. I had difficulty in creating the perfect size for the hearts (mistakes) in one single line. To solve this, I created 3 buttons in the same line, set the color to black, and used the background-image property to get the perfect alignment.
 
-Apart from the designing part, one of the challenges I faced was during implementing the difficulty mode feature and timer feature.
-I learned how to make a dropdown menu from w3schools.com. The main issue was the implementation of the feature and how to change the number of blocks. For that, I made 8 buttons and used the visibility attribute. I created a custom class visible which changes the visibility mode. So when I click on ‘medium’, button5 and button6 change their attribute to visibility: visible;
+I know I haven't used the desired properties to get perfect alignments, but my lack of experience in CSS instigated me to use alternate methods.
 
-The logic of timer. I have a startTimer() and stopTimer(). Earlier, I was calling the startTime() at the end of playClueSequence() since we need the timer running after the last sequence of progress played. The issue was the timer was starting early for 4 onwards passes. I overcame the issue by using setTimeout with time = delay -1000 to appropriately start the timer.
+**Visibility modes:** Apart from the designing, one of the challenges I faced was during implementing the difficulty modes dropdown and the timer feature.
+I learned how to make a dropdown menu from _w3schools.com_. I made 8 buttons and used the visibility attribute to implement the difficulty modes. I created a custom class _visible_ which changes the visibility mode. So when I click on ‘**medium**’, button5 and button6 change their attributes to visibility: _visible;_
+
+**Logic of timer:** I have a startTimer() and stopTimer(). Earlier, I was calling the startTime() at the end of playClueSequence() since we need the timer running after the last sequence of progress played. The issue was the timer was starting early for 4 onwards passes. I overcame the issue by using setTimeout with time = delay -1000 to appropriately start the timer.
 
 I felt the need to understand CSS better to create a better User interface.
 
