@@ -116,7 +116,7 @@ Due to time constraints, I was unable to create a perfect web application. If I 
 1. Use **different** instrument sounds for different butttons since they showcase the image of an instrument.
 2. Add a **progress bar** instead of a timer to make the UI look like a real game.
 3. Change the "Game Lost" and "Game Won" alert to a **Confetti celebration** or different animations.
-4. Use a** different background** since black looks basic.
+4. Use a **different background** since black looks basic.
 5. Learn how to use CSS for button alignment instead of adding **empty <p>**
 6. Add a **scoring algorithm** which gives the user a score based on the time they take to guess.
 7. Add an **animated background**.
