@@ -89,9 +89,13 @@ I know I haven't used the desired properties to get perfect alignments, but my l
 **Visibility modes:** Apart from the designing, one of the challenges I faced was during implementing the difficulty modes dropdown and the timer feature.
 I learned how to make a dropdown menu from _w3schools.com_. I made 8 buttons and used the visibility attribute to implement the difficulty modes. I created a custom class _visible_ which changes the visibility mode. So when I click on ‘**medium**’, button5 and button6 change their attributes to visibility: _visible;_
 
-**Logic of timer:** I have a startTimer() and stopTimer(). Earlier, I was calling the startTime() at the end of playClueSequence() since we need the timer running after the last sequence of progress played. The issue was the timer was starting early for 4 onwards passes. I overcame the issue by using setTimeout with time = delay -1000 to appropriately start the timer.
+**Logic of timer:** I have a startTimer() and stopTimer(). Earlier, I was calling the _startTime()_ at the end of _playClueSequence()_ since the timer should start running after the last block glows in the sequence. The timer was starting early for 4 onwards passes. I overcame this problem by using setTimeout with 
 
-I felt the need to understand CSS better to create a better User interface.
+    time = delay - 1000;
+    
+to appropriately start the timer.
+
+I understood the importance of learning CSS in order to create a better User interface.
 
 
 **3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)**
