@@ -56,7 +56,7 @@ User loses due to time running out
 
 User wins after completing all 8 passes (This GIF shows only the last pass)
 
-<img src='https://media.giphy.com/media/HGyFTxVqmxXvQcNM6A/giphy.gif' width='' />
+<img src='https://media.giphy.com/media/DEWm7mpdWaMPuKr0Ru/giphy.gif' width='' />
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
