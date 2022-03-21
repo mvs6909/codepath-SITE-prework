@@ -48,11 +48,11 @@ User can choose the difficulty level in which easy, medium, and hard has 4,6,8 t
 
 User loses hearts after incorrect guess and eventually loses
 
-<img src='https://media.giphy.com/media/iCwSaBOv2Vs9MauC7S/giphy.gif' width='' />
+<img src='https://media.giphy.com/media/3CXBpLFd7sq2paFfyd/giphy.gif' width='' />
 
 User loses due to time running out
 
-<img src='https://media.giphy.com/media/W2r0eF1XaH5re21WSD/giphy.gif' width='' />
+<img src='https://media.giphy.com/media/ovoXnqomcq5FbINvKf/giphy.gif' width='' />
 
 User wins after completing all 8 passes (This GIF shows only the last pass)
 
@@ -128,7 +128,7 @@ Due to time constraints, I was unable to create a perfect web application. If I 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording]https://psu.mediaspace.kaltura.com/media/Manav+Shah%27s+Personal+Meeting+Room/1_qtx5rlnj
 
 
 ## License
