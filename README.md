@@ -4,7 +4,7 @@
 
 Submitted by: **Manav Shah**
 
-Time spent: **14** hours spent in total
+Time spent: **17** hours spent in total
 
 Link to project: https://jewel-organic-hub.glitch.me
 
@@ -133,7 +133,7 @@ Due to time constraints, I was unable to create a perfect web application. If I 
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Manav Shah]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
