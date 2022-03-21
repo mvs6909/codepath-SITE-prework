@@ -135,7 +135,7 @@ function easyMode() {
   document.getElementById("button6").classList.remove("visible");
   document.getElementById("button7").classList.remove("visible");
   document.getElementById("button8").classList.remove("visible");
-  length = 5;
+  length = 4;
   mode = 1;
 }
 function mediumMode() {
@@ -239,3 +239,8 @@ g.connect(context.destination);
 g.gain.setValueAtTime(0, context.currentTime);
 o.connect(g);
 o.start(0);
+
+
+
+
+

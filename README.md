@@ -30,38 +30,105 @@ The following **optional** features are implemented:
 * [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [X] Game button appearance change goes beyond color (e.g. add an image)
 * [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
-* [ ] User has a limited amount of time to enter their guess on each turn
+* [X] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
 
 - [X] User can change the difficulty with the providid 3 difficulty modes
+- [X] Integrated tilt.js library to improve the UI and give the buttons some interactive animations
+- [X] Added a glowing effect to buttons
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+User can choose the difficulty level in which easy, medium, and hard has 4,6,8 tiles respectively. It also shows the tilt effect used on tiles.
+
+<img src='https://media.giphy.com/media/NK4uUwurh5t4ISY4EF/giphy.gif' width='' />
+
+User loses hearts after incorrect guess and eventually loses
+
+<img src='https://media.giphy.com/media/3CXBpLFd7sq2paFfyd/giphy.gif' width='' />
+
+User loses due to time running out
+
+<img src='https://media.giphy.com/media/ovoXnqomcq5FbINvKf/giphy.gif' width='' />
+
+User wins after completing all 8 passes (This GIF shows only the last pass)
+
+<img src='https://media.giphy.com/media/HGyFTxVqmxXvQcNM6A/giphy.gif' width='' />
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
 
-2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+[https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript](https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript)
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
-4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+[https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet](https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet)
+
+[How to Show Images on Click using HTML ? - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-show-images-on-click-using-html/)
+
+[https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71](https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71)
+
+https://micku7zu.github.io/vanilla-tilt.js/
+
+https://www.w3schools.com/css/css_dropdowns.asp
+
+
+**2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)**
+
+Before developing this application, I had absolutely no experience in HTML and CSS. The main challenge that I faced was in creating the User Interface the way I wanted it to look. I also found it difficult to figure out which CSS properties I had to use to get my button in the right shape or to get the timer aligned to the center of the screen. The following are two challenges I faced in the positioning of different objects in my project:
+
+1. I implemented the difficulty mode feature in which users can choose how many tiles to play with. In this design, I wanted 4 blocks in one line for easy mode and subsequent blocks from the medium and hard mode in the next line. I tried using display: block, inline, and multiple other properties but nothing worked since there was a lot of space resulting in 6 blocks in one line and 2 blocks in the next. To solve this, I added a line (——…) (line 75 in index.html) with the font color as black to cover the extra space for the required design.
+
+2. I had difficulty in creating the perfect size for the hearts (mistakes) in one single line. To solve this, I created 3 buttons in the same line, set the color to black, and used the background-image property to get the perfect alignment.
+
+I know I haven't used the desired properties to get perfect alignments, but my lack of experience in CSS instigated me to use alternate methods.
+
+**Visibility modes:** Apart from the designing, one of the challenges I faced was during implementing the difficulty modes dropdown and the timer feature.
+I learned how to make a dropdown menu from _w3schools.com_. I made 8 buttons and used the visibility attribute to implement the difficulty modes. I created a custom class _visible_ which changes the visibility mode. So when I click on ‘**medium**’, button5 and button6 change their attributes to visibility: _visible;_
+
+**Logic of timer:** I have a startTimer() and stopTimer(). Earlier, I was calling the _startTime()_ at the end of _playClueSequence()_ since the timer should start running after the last block glows in the sequence. The timer was starting early for 4 onwards passes. I overcame this problem by using setTimeout with 
+
+    time = delay - 1000;
+    
+to appropriately start the timer.
+
+I understood the importance of learning CSS in order to create a better User interface.
+
+
+**3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)**
+
+The Pre-work work project was an amazing start to my web development journey and using HTML, CSS, and JavaScript. I have learned a lot while implementing the optional features for the internship. Up next, I want to learn advanced web development, and here are some questions that cross my mind:
+
+1. The use of CSS to develop real-world websites? In this project, the UI is a little unprofessional. I want to understand how advanced CSS is used to upgrade my games User Interface.
+2. I want to learn how the front-end is integrated with the back-end. In this project, we don’t use any data storage features. For example, to make a website like Amazon, we need to extract data from our database and display it. I am curious on how to integrate data with the front-end.
+3. How are HTML, CSS, and JavaScript integrated? I have never completed a project with the use of 3 different languages so I want to know how it works.
+4. How do websites take advantage of HTML tags for search engine optimization (SEO) on Google?
+5. How are games like Minecraft created? 
+6. How to create 3D websites like _apple.com_ and _robinhood.com_? They use animations that seem very different compared to regular websites like amazon.com.
+
+
+**4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words)** 
+
+Due to time constraints, I was unable to create a perfect web application. If I had a few more hours, I would:
+1. Use **different** instrument sounds for different butttons since they showcase the image of an instrument.
+2. Add a **progress bar** instead of a timer to make the UI look like a real game.
+3. Change the "Game Lost" and "Game Won" alert to a **Confetti celebration** or different animations.
+4. Use a **different background** since black looks basic.
+5. Learn how to use CSS for button alignment instead of adding **empty <p>**
+6. Add a **scoring algorithm** which gives the user a score based on the time they take to guess.
+7. Add an **animated background**.
+8. **Refactor my code in CSS**. Currently I am not reusing code efficiently. For example, there is a visible class in CSS for all buttons instead of a common class. I tried to implement it but the debugging was unsuccessful.
+9. Test the applications with **more complexity**.
+10. **Improve** the User interface to a game.
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://psu.mediaspace.kaltura.com/media/Manav+Shah%27s+Personal+Meeting+Room/1_qtx5rlnj)
 
 
 ## License
