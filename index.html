@@ -15,11 +15,16 @@
 
     <!-- Import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    <script src="/confetti.js" defer></script>
   </head>
-  <body id="body" >
-      <h1>Light and Sound Memory Game</h1>
-      <p>Welcome to the Game! Repeat back the pattern by pressing the buttons!</p>
+
+    
+  <body id="body" style="background-image:url(https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/virtual-retro-future-environment-concept-free-vector.jpg?v=1647840407760" >
+    
+      <h1 style="text-align:center; font-size:60px;">Light and Sound Memory Game</h1>
+      <p style="text-align:center; font-size:22px;">Welcome to the Game! Repeat back the pattern by pressing the buttons!</p>
       <button id="startBtn" onclick="startGame()">Start</button>  
+    
       <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
       <audio src="https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/letsGo?v=1647395611106" id="letsGo"></audio>
       <div class="dropdown" style="display:inline">
@@ -36,8 +41,7 @@
     <button id="heart2" ></button>
     <button id="heart1" ></button>
     <h2 id = "timer"></h2>
-    <div>
-      
+    </div>
     <p style="display:block"></p>
     <div id="gameButtonArea">
       <button
@@ -72,7 +76,7 @@
         data-tilt
         style="display:inline"
       ></button>
-      <p style="color:black;">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+      <p style="color:#330066">------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
       <button
         id="button5"
         onclick="guess(5)"
@@ -105,11 +109,14 @@
         data-tilt
         style="display:inline"
       ></button>
+
     </div>
+      
     <p style="display:block"> </p>
     <p style="display:block"> </p>
     <p style="display:block"> </p>
     <p style="display:block"> </p>
     <script type="text/javascript" src="tilt.js"></script>
   </body>
+
 </html>
