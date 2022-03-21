@@ -44,7 +44,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 User can choose the difficulty level in which easy, medium, and hard has 4,6,8 tiles respectively. It also shows the tilt effect used on tiles.
 
-<img src='https://media.giphy.com/media/jinPLeqAGq93aOdDqE/giphy.gif' width='' />
+<img src='https://media.giphy.com/media/NK4uUwurh5t4ISY4EF/giphy.gif' width='' />
 
 User loses hearts after incorrect guess and eventually loses
 
