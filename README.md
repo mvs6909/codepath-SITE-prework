@@ -128,7 +128,7 @@ Due to time constraints, I was unable to create a perfect web application. If I 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording]https://psu.mediaspace.kaltura.com/media/Manav+Shah%27s+Personal+Meeting+Room/1_qtx5rlnj
+[My 5-minute Interview Recording](https://psu.mediaspace.kaltura.com/media/Manav+Shah%27s+Personal+Meeting+Room/1_qtx5rlnj)
 
 
 ## License
