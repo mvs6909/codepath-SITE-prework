@@ -138,10 +138,11 @@ img{
 }
 
 #gameButtonArea > button {
+  display:flex;
   width:200px;
   height:200px;
   margin:2px;
-  text-align:center;
+  justify-content: center;
 }
 
 .hidden{
@@ -157,7 +158,8 @@ img{
   visibility: visible;
 }
 #strikes > button {
-    background: black;
+    background: none;
+    border: none;
   width: 30px;
   height:30px;
     background-image: url("https://cdn.glitch.global/b6198e6d-64ff-40e5-bf02-5ce53d7d4985/heart.png?v=1647392902755");
@@ -252,6 +254,30 @@ img{
 }
 #button8.visible{
   visibility: visible;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+#first4 > button{
+    width:200px;
+  height:200px;
+  margin:2px;
+}
+#last4 > button{
+    width:200px;
+  height:200px;
+  margin:2px;
 }
 
 /* Page structure */
