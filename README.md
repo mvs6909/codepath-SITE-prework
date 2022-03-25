@@ -29,7 +29,7 @@ The following **optional** features are implemented:
 * [X] Computer picks a different pattern each time the game is played
 * [X] Player only loses after 3 mistakes (instead of on the first mistake)
 * [X] Game button appearance change goes beyond color (e.g. add an image)
-* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [X] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
 * [X] User has a limited amount of time to enter their guess on each turn
 
 The following **additional** features are implemented:
@@ -37,6 +37,8 @@ The following **additional** features are implemented:
 - [X] User can change the difficulty with the providid 3 difficulty modes
 - [X] Integrated tilt.js library to improve the UI and give the buttons some interactive animations
 - [X] Added a glowing effect to buttons
+- [X] Configured a confetti animation when the player wins the Game.
+- [X] Added Mario win and loss sound tracks.
 
 ## Video Walkthrough (GIF)
 
@@ -48,15 +50,17 @@ User can choose the difficulty level in which easy, medium, and hard has 4,6,8 t
 
 User loses hearts after incorrect guess and eventually loses
 
-<img src='https://media.giphy.com/media/3CXBpLFd7sq2paFfyd/giphy.gif' width='' />
+<img src='https://media.giphy.com/media/4slh5Dcvt6c0RX2INq/giphy.gif' width='' />
 
 User loses due to time running out
 
 <img src='https://media.giphy.com/media/ovoXnqomcq5FbINvKf/giphy.gif' width='' />
 
-User wins after completing all 8 passes (This GIF shows only the last pass)
+User wins after completing all 8 passes (This GIF shows only the last pass) and confetti animation is shown
 
-<img src='https://media.giphy.com/media/DEWm7mpdWaMPuKr0Ru/giphy.gif' width='' />
+<img src='https://media.giphy.com/media/QhzmrpCyzFO5G1sIRW/giphy.gif' width='' />
+
+
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
@@ -80,9 +84,9 @@ https://www.w3schools.com/css/css_dropdowns.asp
 
 Before developing this application, I had absolutely no experience in HTML and CSS. The main challenge that I faced was in creating the User Interface the way I wanted it to look. I also found it difficult to figure out which CSS properties I had to use to get my button in the right shape or to get the timer aligned to the center of the screen. The following are two challenges I faced in the positioning of different objects in my project:
 
-1. I implemented the difficulty mode feature in which users can choose how many tiles to play with. In this design, I wanted 4 blocks in one line for easy mode and subsequent blocks from the medium and hard mode in the next line. I tried using display: block, inline, and multiple other properties but nothing worked since there was a lot of space resulting in 6 blocks in one line and 2 blocks in the next. To solve this, I added a line (——…) (line 75 in index.html) with the font color as black to cover the extra space for the required design.
+1. I implemented the difficulty mode feature in which users can choose how many tiles to play with. In this design, I wanted 4 blocks in one line for easy mode and subsequent blocks from the medium and hard mode in the next line. I tried using display: block, inline, and multiple other properties but nothing worked since there was a lot of space resulting in 6 blocks in one line and 2 blocks in the next. To solve this, I added a line (——…) (line 75 in index.html) with the font color as black to cover the extra space for the required design. After learning more about flex containers, I was able to remove the dashed line (can be seen in previous commits) and use flex containers to center the Game button tiles.
 
-2. I had difficulty in creating the perfect size for the hearts (mistakes) in one single line. To solve this, I created 3 buttons in the same line, set the color to black, and used the background-image property to get the perfect alignment.
+2. I had difficulty in integrating the confetti animations with the text label "You Win!". The confetti is produced by an external library confetti.js which creates a new canvas for the animation. The main issue was to give the effect of confetti falling on the winLabel as it is not possible to add elements in a canvas. To overcome this, I had to make the position of the winLabel "absolute".
 
 I know I haven't used the desired properties to get perfect alignments, but my lack of experience in CSS instigated me to use alternate methods.
 
