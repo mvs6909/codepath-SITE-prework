@@ -54,7 +54,7 @@ User loses hearts after incorrect guess and eventually loses
 
 User loses due to time running out
 
-<img src='https://media.giphy.com/media/ovoXnqomcq5FbINvKf/giphy.gif' width='' />
+<img src='https://media.giphy.com/media/EcWA0HfNeGKkbflyXF/giphy.gif' width='' />
 
 User wins after completing all 8 passes (This GIF shows only the last pass) and confetti animation is shown
 
@@ -67,6 +67,12 @@ User wins after completing all 8 passes (This GIF shows only the last pass) and 
 
 [https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript](https://www.tutorialspoint.com/How-to-create-an-array-of-integers-in-JavaScript)
 
+https://www.cssscript.com/confetti-falling-animation/
+
+https://www.youtube.com/watch?v=3BsBXp6VkvU
+
+https://www.youtube.com/watch?v=6yrYAOFHi3A
+
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
 
 [https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet](https://www.w3schools.com/colors/color_tryit.asp?color=BlueViolet)
@@ -76,6 +82,8 @@ User wins after completing all 8 passes (This GIF shows only the last pass) and 
 [https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71](https://coolors.co/a7c6da-eefcce-9eb25d-f1db4b-edff71)
 
 https://micku7zu.github.io/vanilla-tilt.js/
+
+https://www.w3schools.com/css/css3_flexbox_container.asp
 
 https://www.w3schools.com/css/css_dropdowns.asp
 
