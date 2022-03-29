@@ -6,7 +6,7 @@ Submitted by: **Manav Shah**
 
 Time spent: **17** hours spent in total
 
-Link to project: https://jewel-organic-hub.glitch.me
+Link to project: https://glitch.com/edit/#!/jewel-organic-hub
 
 ## Required Functionality
 
