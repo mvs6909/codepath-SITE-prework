@@ -2,8 +2,6 @@
 
 **Memory Game** is a Light & Sound Memory game.
 
-Submitted by: **Manav Shah**
-
 Time spent: **17** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/jewel-organic-hub
